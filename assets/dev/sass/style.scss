@@ -1,0 +1,13 @@
+$body-color: red;
+
+body {
+  color: $body-color;
+}
+h1 {
+  color: $body-color;
+  transition: color;
+  transform: translate3d(1,0,0);
+  display: flex;
+  flex-direction: column;
+  
+}
