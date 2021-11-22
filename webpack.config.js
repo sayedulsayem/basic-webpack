@@ -75,15 +75,6 @@ module.exports = [
 
         entry: entryPoints,
 
-        // entry: {
-        //     "css/style": './assets/dev/sass/style.scss',
-        //     "css/style.min": './assets/dev/sass/style.scss',
-        //     "css/test": './assets/dev/sass/test.scss',
-        //     "css/test.min": './assets/dev/sass/test.scss',
-        //     "js/app": './assets/dev/js/app.js',
-        //     "js/app.min": './assets/dev/js/app.js',
-        // },
-
         module: {
             rules: [
                 {
@@ -150,7 +141,7 @@ module.exports = [
             new MiniCssExtractPlugin({
                 filename: "[name].css",
             }),
-            // TODO: Need to thing again because of wp org rules
+            // TODO: Need to think again because of wp org rules
             // new WebpackObfuscator ({
             //     rotateStringArray: true
             // }, ['!**.min.js'])

@@ -4,11 +4,11 @@
   "description": "Test project to configure webpack",
   "main": "main.html",
   "scripts": {
-    "dev": "webpack --mode development",
+    "dev": "webpack --mode development --watch --progress",
     "translate": "wp-pot --src '**/**/**/*.php' --dest-file 'i18n/wordpress-webpack.pot' --package '{{webpack-configuration}}' --domain '{{plugin_domain}}' --last-translator '{{sayedulsayem}} <{{sayedulsayem@gmail.com}}>' --team '{{sayedulsayem}} <{{sayedulsayem@gmail.com}}>' --bug-report '{{sayedulsayem@gmail.com}}'"
   },
   "author": "sayedulsayem",
-  "license": "ISC",
+  "license": "GPL-3.0-or-later",
   "browserslist": [
     "last 2 version",
     "> 1%",
